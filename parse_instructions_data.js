@@ -27,3 +27,4 @@ let decode_with_solana = web3.SystemInstruction.decodeTransfer(
 )
 
 console.log('decode result: ', decode_with_solana)
+// decode result:  { fromPubkey: undefined, toPubkey: undefined, lamports: 100000000n }
